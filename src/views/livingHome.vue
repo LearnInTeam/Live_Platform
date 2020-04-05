@@ -49,7 +49,7 @@ export default {
   components: { livingSug },
   data() {
     return {
-      componentList: []
+      componentList: ["livingSug"]
     };
   },
   methods: {},
