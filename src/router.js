@@ -6,14 +6,14 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path:'/',
-      name:'home',
-      component:()=>import('@/views/home/index.vue')
+      path: '/',
+      name: 'livingHome',
+      component: () => import('@/views/livingHome.vue')
     },
     {
-      path:'/search',
-      name:'search',
-      component:()=>import('@/views/search/index.vue')
+      path: '/search',
+      name: 'search',
+      component: () => import('@/views/search/index.vue')
     },
     {
       path: '/settings',
